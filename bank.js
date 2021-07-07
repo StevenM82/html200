@@ -22,7 +22,7 @@ function bankFunction (banked) {
                     balance = balance - withdraw;
                     continue;
                 } else {
-                    continue;
+                    continue; 
                 }
             }
             alert(`You withdrew $${withdraw}`);
